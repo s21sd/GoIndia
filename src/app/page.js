@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex-grow flex flex-col">
         <Dissfourm className="w-3/4 bg-gray-100 px-4 py-6" />
       </div>
-      {/* <Marketstories className="w-full mt-auto" /> */}
+      <Marketstories className="w-full mt-auto" />
     </div>
   );
 }
