@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex-grow flex">
             <Dissfourm className="w-3/4 bg-gray-100 px-4 py-6" />
           </div>
-          {/* {Market Stories compo here} */}
+          {/* {Market compo here } */}
           <Marketstories className="w-full mt-auto" />
         </div>
       </div>
