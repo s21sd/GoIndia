@@ -4,9 +4,9 @@ const Marketstories = () => {
     return (
         <section className="text-gray-600 body-font w-[30%]">
             <div className="container px-5 py-12 mx-auto">
-                <div className="flex rounded-sm justify-center items-center bg-gray-200 flex-col w-fit text-center mb-4 p-3">
+                {/* <div className="flex rounded-sm justify-center items-center bg-gray-200 flex-col w-fit text-center mb-4 p-3">
                     <h1 className="text-3xl font-bold  text-red-300 capitalize">MARKET STORIES</h1>
-                </div>
+                </div> */}
                 {
                     marketStories.map((item, index) => {
                         return (

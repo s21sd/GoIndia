@@ -38,7 +38,7 @@ export const Sidebar = () => {
                                     <div className='flex gap-1 items-center'>
                                         {link.name === 'Disscussion Fourm' ? <MdMessage size={24} /> : <div></div>}
                                         {link.name === 'Market Stories' ? <FaCommentDollar size={24} /> : <div></div>}
-                                        <p className={link.name === 'Disscussion Fourm' || link.name === 'Market Stories' ? '' :'pl-4'}>{link.name}</p>
+                                        <p className={link.name === 'Disscussion Fourm' || link.name === 'Market Stories' ? '' : 'pl-4'}>{link.name}</p>
                                     </div>
                                 </div>
                             </div>
