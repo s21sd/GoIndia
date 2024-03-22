@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-    .leftsidebar {
-        @apply sticky left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between border-r;
-    }
 
     .shadow-bottom-right {
         box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);

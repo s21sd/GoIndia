@@ -8,7 +8,7 @@ import { FaCommentDollar } from "react-icons/fa";
 
 export const Sidebar = () => {
     return (
-        <section className=' h-screen bg-[#1e375f] text-white lg:w-[20%] big-desktop:relative desktop:relative tablet:relative phones:absolute'>
+        <section className='h-screen bg-[#1e375f] text-white lg:w-[20%] big-desktop:relative desktop:relative tablet:relative phones:absolute'>
             <div className='mt-5 px-2 py-2 flex justify-between items-center'>
                 <div className='flex justify-center items-center gap-3'>
                     <Image width={30} height={30} src={userimg} className='rounded-full' />
