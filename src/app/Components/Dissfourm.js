@@ -4,14 +4,11 @@ import { FaEye } from "react-icons/fa";
 import { FaRegComment } from "react-icons/fa";
 import { IoShareSocialOutline } from "react-icons/io5";
 import { postsData } from '../Constants';
-import user from '../../../public/assets/user.webp'
 const Dissfourm = () => {
     return (
         <section className="text-gray-600 body-font w-[100%] tablet:w-[100%]">
-            <div className="container px-5 py-12  flex flex-wrap flex-col">
-                {/* <div className='bg-gray-200 w-fit p-3 rounded-sm'>
-                    <h1 className='font-bold text-3xl text-red-300 capitalize'>DISSCUSSION FOURM</h1>
-                </div> */}
+            <div className="container px-5 py-12  flex flex-col">
+              
                 {
                     postsData.map((item, index) => {
                         return (
